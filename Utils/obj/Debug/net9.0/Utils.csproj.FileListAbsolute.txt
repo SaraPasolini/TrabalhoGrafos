@@ -1,0 +1,15 @@
+C:\trabalho de grafos\TrabalhoGrafos\Utils\obj\Debug\net9.0\Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\trabalho de grafos\TrabalhoGrafos\Utils\obj\Debug\net9.0\Utils.AssemblyInfoInputs.cache
+C:\trabalho de grafos\TrabalhoGrafos\Utils\obj\Debug\net9.0\Utils.AssemblyInfo.cs
+C:\trabalho de grafos\TrabalhoGrafos\Utils\obj\Debug\net9.0\Utils.csproj.CoreCompileInputs.cache
+C:\trabalho de grafos\TrabalhoGrafos\Utils\obj\Debug\net9.0\Utils.sourcelink.json
+C:\trabalho de grafos\TrabalhoGrafos\Utils\bin\Debug\net9.0\Utils.exe
+C:\trabalho de grafos\TrabalhoGrafos\Utils\bin\Debug\net9.0\Utils.deps.json
+C:\trabalho de grafos\TrabalhoGrafos\Utils\bin\Debug\net9.0\Utils.runtimeconfig.json
+C:\trabalho de grafos\TrabalhoGrafos\Utils\bin\Debug\net9.0\Utils.dll
+C:\trabalho de grafos\TrabalhoGrafos\Utils\bin\Debug\net9.0\Utils.pdb
+C:\trabalho de grafos\TrabalhoGrafos\Utils\obj\Debug\net9.0\Utils.dll
+C:\trabalho de grafos\TrabalhoGrafos\Utils\obj\Debug\net9.0\refint\Utils.dll
+C:\trabalho de grafos\TrabalhoGrafos\Utils\obj\Debug\net9.0\Utils.pdb
+C:\trabalho de grafos\TrabalhoGrafos\Utils\obj\Debug\net9.0\Utils.genruntimeconfig.cache
+C:\trabalho de grafos\TrabalhoGrafos\Utils\obj\Debug\net9.0\ref\Utils.dll
