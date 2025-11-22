@@ -18,9 +18,22 @@ class Program
         // Mostra grafo
         g.PrintGraph();
 
-        Console.WriteLine();
-        Console.Write("Digite o vértice inicial para BFS: ");
-        int inicio = int.Parse(Console.ReadLine()!);
+        int inicio;
+        int numVertices = 6;
+
+        while (true)
+        {
+            Console.Write(
+                "\nDigite o vértice inicial para BFS (0 até " + (numVertices - 1) + "): "
+            );
+
+            if (int.TryParse(Console.ReadLine(), out inicio) && inicio >= 0 && inicio < numVertices)
+            {
+                break; // entrada válida
+            }
+
+            Console.WriteLine("Valor inválido! Tente novamente.\n");
+        }
 
         Console.WriteLine();
         g.BFS(inicio);

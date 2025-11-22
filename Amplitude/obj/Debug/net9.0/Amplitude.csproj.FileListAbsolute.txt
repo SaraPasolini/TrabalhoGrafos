@@ -1,0 +1,15 @@
+C:\Users\antho\OneDrive\Área de Trabalho\FACULDADE\SISTEMAS DE INFORMAÇÃO\AED\TRABALHO AED\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\Amplitude.exe
+C:\Users\antho\OneDrive\Área de Trabalho\FACULDADE\SISTEMAS DE INFORMAÇÃO\AED\TRABALHO AED\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\Amplitude.deps.json
+C:\Users\antho\OneDrive\Área de Trabalho\FACULDADE\SISTEMAS DE INFORMAÇÃO\AED\TRABALHO AED\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\Amplitude.runtimeconfig.json
+C:\Users\antho\OneDrive\Área de Trabalho\FACULDADE\SISTEMAS DE INFORMAÇÃO\AED\TRABALHO AED\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\Amplitude.dll
+C:\Users\antho\OneDrive\Área de Trabalho\FACULDADE\SISTEMAS DE INFORMAÇÃO\AED\TRABALHO AED\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\Amplitude.pdb
+C:\Users\antho\OneDrive\Área de Trabalho\FACULDADE\SISTEMAS DE INFORMAÇÃO\AED\TRABALHO AED\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antho\OneDrive\Área de Trabalho\FACULDADE\SISTEMAS DE INFORMAÇÃO\AED\TRABALHO AED\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.AssemblyInfoInputs.cache
+C:\Users\antho\OneDrive\Área de Trabalho\FACULDADE\SISTEMAS DE INFORMAÇÃO\AED\TRABALHO AED\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.AssemblyInfo.cs
+C:\Users\antho\OneDrive\Área de Trabalho\FACULDADE\SISTEMAS DE INFORMAÇÃO\AED\TRABALHO AED\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.csproj.CoreCompileInputs.cache
+C:\Users\antho\OneDrive\Área de Trabalho\FACULDADE\SISTEMAS DE INFORMAÇÃO\AED\TRABALHO AED\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.sourcelink.json
+C:\Users\antho\OneDrive\Área de Trabalho\FACULDADE\SISTEMAS DE INFORMAÇÃO\AED\TRABALHO AED\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.dll
+C:\Users\antho\OneDrive\Área de Trabalho\FACULDADE\SISTEMAS DE INFORMAÇÃO\AED\TRABALHO AED\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\refint\Amplitude.dll
+C:\Users\antho\OneDrive\Área de Trabalho\FACULDADE\SISTEMAS DE INFORMAÇÃO\AED\TRABALHO AED\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.pdb
+C:\Users\antho\OneDrive\Área de Trabalho\FACULDADE\SISTEMAS DE INFORMAÇÃO\AED\TRABALHO AED\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.genruntimeconfig.cache
+C:\Users\antho\OneDrive\Área de Trabalho\FACULDADE\SISTEMAS DE INFORMAÇÃO\AED\TRABALHO AED\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\ref\Amplitude.dll
