@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Amplitude")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f2d6fe61569821f98512724795fa6fcbc5fb3ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+482322c456d156026cbeb75f5287d6813dc26c62")]
 [assembly: System.Reflection.AssemblyProductAttribute("Amplitude")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Amplitude")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
