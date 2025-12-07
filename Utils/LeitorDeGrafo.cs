@@ -6,12 +6,12 @@
         {
             var linhas = File.ReadAllLines(caminho);
 
-            int n = int.Parse(linhas[0]);  
+            int n = int.Parse(linhas[0]);
             int[,] grafo = new int[n, n];
 
             for (int i = 1; i <= n; i++)
             {
-                var valores = linhas[i].Split(' ');
+                var valores = linhas[i].Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
                 for (int j = 0; j < n; j++)
                 {
@@ -21,19 +21,19 @@
 
             return grafo;
         }
-         public static void MostraGrafo(int[,] grafo)
+
+        public static void MostraGrafo(int[,] grafo)
         {
             int n = grafo.GetLength(0);
-           for(int i=0; i<n;i++)
+
+            for (int i = 0; i < n; i++)
             {
-                for(int j=0; j<n;j++)
+                for (int j = 0; j < n; j++)
                 {
-                    Console.Write(grafo[i,j]+ " ");
+                    Console.Write(grafo[i, j] + " ");
                 }
                 Console.WriteLine();
-            } 
+            }
         }
-
     }
-
 }
