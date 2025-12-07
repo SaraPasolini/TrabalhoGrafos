@@ -1,11 +1,106 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "Amplitude/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Amplitude.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Amplitude.dll": {}
+        }
+      },
+      "Dijkstra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Dijkstra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dijkstra.dll": {}
+        }
+      },
+      "PRIM/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PRIM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PRIM.dll": {}
+        }
+      },
+      "Profundidade/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Utils": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Profundidade.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Profundidade.dll": {}
+        }
+      },
+      "Utils/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Utils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utils.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Amplitude/1.0.0": {
+      "type": "project",
+      "path": "Amplitude/Amplitude.csproj",
+      "msbuildProject": "Amplitude/Amplitude.csproj"
+    },
+    "Dijkstra/1.0.0": {
+      "type": "project",
+      "path": "Dijkstra/Dijkstra.csproj",
+      "msbuildProject": "Dijkstra/Dijkstra.csproj"
+    },
+    "PRIM/1.0.0": {
+      "type": "project",
+      "path": "PRIM/PRIM.csproj",
+      "msbuildProject": "PRIM/PRIM.csproj"
+    },
+    "Profundidade/1.0.0": {
+      "type": "project",
+      "path": "Profundidade/Profundidade.csproj",
+      "msbuildProject": "Profundidade/Profundidade.csproj"
+    },
+    "Utils/1.0.0": {
+      "type": "project",
+      "path": "Utils/Utils.csproj",
+      "msbuildProject": "Utils/Utils.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "Amplitude >= 1.0.0",
+      "Dijkstra >= 1.0.0",
+      "PRIM >= 1.0.0",
+      "Profundidade >= 1.0.0",
+      "Utils >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\saraa\\.nuget\\packages\\": {},
@@ -38,7 +133,23 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\saraa\\Grafos\\TrabalhoGrafos\\Amplitude\\Amplitude.csproj": {
+              "projectPath": "C:\\Users\\saraa\\Grafos\\TrabalhoGrafos\\Amplitude\\Amplitude.csproj"
+            },
+            "C:\\Users\\saraa\\Grafos\\TrabalhoGrafos\\Dijkstra\\Dijkstra.csproj": {
+              "projectPath": "C:\\Users\\saraa\\Grafos\\TrabalhoGrafos\\Dijkstra\\Dijkstra.csproj"
+            },
+            "C:\\Users\\saraa\\Grafos\\TrabalhoGrafos\\PRIM\\PRIM.csproj": {
+              "projectPath": "C:\\Users\\saraa\\Grafos\\TrabalhoGrafos\\PRIM\\PRIM.csproj"
+            },
+            "C:\\Users\\saraa\\Grafos\\TrabalhoGrafos\\Profundidade\\Profundidade.csproj": {
+              "projectPath": "C:\\Users\\saraa\\Grafos\\TrabalhoGrafos\\Profundidade\\Profundidade.csproj"
+            },
+            "C:\\Users\\saraa\\Grafos\\TrabalhoGrafos\\Utils\\Utils.csproj": {
+              "projectPath": "C:\\Users\\saraa\\Grafos\\TrabalhoGrafos\\Utils\\Utils.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,4 +1,7 @@
-﻿namespace AlgoritmosGrafos.Utils
+﻿using System;
+using System.IO;
+
+namespace AlgoritmosGrafos.Utils
 {
     public static class LeitorDeGrafo
     {
@@ -6,9 +9,10 @@
         {
             var linhas = File.ReadAllLines(caminho);
 
-            int n = int.Parse(linhas[0]);
+            int n = int.Parse(linhas[0]);     // Primeira linha = número de vértices
             int[,] grafo = new int[n, n];
 
+            // As próximas n linhas têm a matriz de adjacência
             for (int i = 1; i <= n; i++)
             {
                 var valores = linhas[i].Split(' ', StringSplitOptions.RemoveEmptyEntries);

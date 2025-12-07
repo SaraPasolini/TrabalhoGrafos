@@ -1,0 +1,6 @@
+C:\Users\saraa\Grafos\TrabalhoGrafos\Profundidade\obj\Debug\net9.0\Profundidade.csproj.AssemblyReference.cache
+C:\Users\saraa\Grafos\TrabalhoGrafos\Profundidade\obj\Debug\net9.0\Profundidade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saraa\Grafos\TrabalhoGrafos\Profundidade\obj\Debug\net9.0\Profundidade.AssemblyInfoInputs.cache
+C:\Users\saraa\Grafos\TrabalhoGrafos\Profundidade\obj\Debug\net9.0\Profundidade.AssemblyInfo.cs
+C:\Users\saraa\Grafos\TrabalhoGrafos\Profundidade\obj\Debug\net9.0\Profundidade.csproj.CoreCompileInputs.cache
+C:\Users\saraa\Grafos\TrabalhoGrafos\Profundidade\obj\Debug\net9.0\Profundidade.sourcelink.json

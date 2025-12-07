@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="Amplitude/Amplitude.csproj" />
+    <ProjectReference Include="Profundidade/Profundidade.csproj" />
+    <ProjectReference Include="Dijkstra/Dijkstra.csproj" />
+    <ProjectReference Include="PRIM/PRIM.csproj" />
+    <ProjectReference Include="Utils/Utils.csproj" />
+  </ItemGroup>
+
 </Project>

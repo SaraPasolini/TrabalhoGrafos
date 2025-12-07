@@ -1,0 +1,5 @@
+C:\Users\saraa\Grafos\TrabalhoGrafos\obj\Debug\net9.0\TrabalhoGrafos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saraa\Grafos\TrabalhoGrafos\obj\Debug\net9.0\TrabalhoGrafos.AssemblyInfoInputs.cache
+C:\Users\saraa\Grafos\TrabalhoGrafos\obj\Debug\net9.0\TrabalhoGrafos.AssemblyInfo.cs
+C:\Users\saraa\Grafos\TrabalhoGrafos\obj\Debug\net9.0\TrabalhoGrafos.csproj.CoreCompileInputs.cache
+C:\Users\saraa\Grafos\TrabalhoGrafos\obj\Debug\net9.0\TrabalhoGrafos.sourcelink.json

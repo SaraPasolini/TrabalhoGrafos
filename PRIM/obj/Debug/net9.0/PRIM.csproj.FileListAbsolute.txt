@@ -1,0 +1,6 @@
+C:\Users\saraa\Grafos\TrabalhoGrafos\PRIM\obj\Debug\net9.0\PRIM.csproj.AssemblyReference.cache
+C:\Users\saraa\Grafos\TrabalhoGrafos\PRIM\obj\Debug\net9.0\PRIM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saraa\Grafos\TrabalhoGrafos\PRIM\obj\Debug\net9.0\PRIM.AssemblyInfoInputs.cache
+C:\Users\saraa\Grafos\TrabalhoGrafos\PRIM\obj\Debug\net9.0\PRIM.AssemblyInfo.cs
+C:\Users\saraa\Grafos\TrabalhoGrafos\PRIM\obj\Debug\net9.0\PRIM.csproj.CoreCompileInputs.cache
+C:\Users\saraa\Grafos\TrabalhoGrafos\PRIM\obj\Debug\net9.0\PRIM.sourcelink.json

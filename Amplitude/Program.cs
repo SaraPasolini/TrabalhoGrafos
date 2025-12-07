@@ -1,67 +1,45 @@
 ﻿using System;
-using System.Collections.Generic;
-using LeitorDeGrafos.Utils; // Importa o leitor de grafo
+using AlgoritmosGrafos.Utils;
 
-public class GrafoLista
+namespace Amplitude
 {
-    private int Vertices;
-    private List<(int destino, int peso)>[] adj;
-
-    public GrafoLista(int vertices)
+    class Program
     {
-        Vertices = vertices;
-        adj = new List<(int destino, int peso)>[vertices];
-
-        for (int i = 0; i < vertices; i++)
-            adj[i] = new List<(int destino, int peso)>();
-    }
-
-    public void AddEdge(int origem, int destino, int peso)
-    {
-        // Como o grafo é não direcionado, adiciona nas duas direções
-        adj[origem].Add((destino, peso));
-        adj[destino].Add((origem, peso));
-    }
-
-    public void BFS(int inicio)
-    {
-        bool[] visitado = new bool[Vertices];
-        Queue<int> fila = new Queue<int>();
-
-        visitado[inicio] = true;
-        fila.Enqueue(inicio);
-
-        Console.WriteLine("Travessia BFS:");
-
-        while (fila.Count > 0)
+        static void Main(string[] args)
         {
-            int atual = fila.Dequeue();
-            Console.Write(atual + " ");
+            // Lê matriz do arquivo
+            int[,] matriz = LeitorDeGrafo.LerGrafoDeArquivo(@"C:\Users\saraa\Grafos\TrabalhoGrafos\Utils\GrafoTeste.txt");
 
-            foreach (var vizinho in adj[atual])
+
+            int n = matriz.GetLength(0);
+
+            // Cria grafo com a quantidade correta de vértices
+            Graph g = new Graph(n);
+
+            // Converte matriz → lista de adjacência
+            for (int i = 0; i < n; i++)
             {
-                if (!visitado[vizinho.destino])
+                for (int j = i + 1; j < n; j++) // evita duplicar arestas
                 {
-                    visitado[vizinho.destino] = true;
-                    fila.Enqueue(vizinho.destino);
+                    if (matriz[i, j] != 0)
+                    {
+                        g.AddEdge(i, j, matriz[i, j]);
+                    }
                 }
             }
-        }
 
-        Console.WriteLine();
-    }
-
-    public void PrintGraph()
-    {
-        Console.WriteLine("LISTA DE ADJACÊNCIA:\n");
-
-        for (int i = 0; i < Vertices; i++)
-        {
-            Console.Write($"Vértice {i}: ");
-            foreach (var (dest, peso) in adj[i])
-                Console.Write($"-> ({dest}, peso: {peso}) ");
+            // Mostra grafo
+            g.PrintGraph();
 
             Console.WriteLine();
+            Console.Write("Digite o vértice inicial para BFS: ");
+            int inicio = int.Parse(Console.ReadLine()!);
+
+            Console.WriteLine();
+            g.BFS(inicio);
+
+            Console.WriteLine("\nPressione qualquer tecla para sair...");
+            Console.ReadKey();
         }
     }
 }
