@@ -4,20 +4,6 @@ using System.IO;
 
 class Program
 {
- static void Main()
-    {
-        string caminhoArquivo = "../Grafo.txt";
-        int[,] matriz = LerMatrizAdjacencia(caminhoArquivo);
-
-        var (arvoreGeradora, pesoTotal) = Prim(matriz);
-
-        Console.WriteLine("Arestas da Árvore Geradora Mínima (Prim):");
-        foreach (var (origem, destino, peso) in arvoreGeradora)
-            Console.WriteLine($"{origem} - {destino} (peso = {peso})");
-
-        Console.WriteLine($"\nPeso total da AGM = {pesoTotal}");
-    }
-
     static int[,] LerMatrizAdjacencia(string caminho)
     {
         string[] linhas = File.ReadAllLines(caminho);
