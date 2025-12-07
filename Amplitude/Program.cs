@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using LeitorDeGrafo.Utils.LeitorDeGrafo;
+
 
 public class LeitorDeGrafo
 {
@@ -81,11 +81,11 @@ class Program
         caminhoGrafo = Path.GetFullPath(caminhoGrafo);
 
         // Lê o grafo do arquivo
-        int[,] grafo = LeitorDeGrafo.LerGrafoDeArquivo(caminhoGrafo);
+        // int[,] grafo = LeitorDeGrafo.LerGrafoDeArquivo(caminhoGrafo);
 
         // Exibe a matriz de adjacência
         Console.WriteLine("Matriz de Adjacência lida do arquivo:");
-        LeitorDeGrafo.MostraGrafo(grafo);
+        //LeitorDeGrafo.MostraGrafo(grafo);
         Console.WriteLine();
 
         // Converte a matriz em um grafo com lista de adjacência

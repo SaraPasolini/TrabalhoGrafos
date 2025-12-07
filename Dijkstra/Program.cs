@@ -1,5 +1,5 @@
 using System;
-using AlgoritmosGrafos.Utils;
+
 
 namespace AlgoritmosGrafos
 {
@@ -105,11 +105,11 @@ namespace AlgoritmosGrafos
             Console.WriteLine("Lendo grafo do arquivo Grafo.txt...\n");
 
             // Lê a matriz de adjacência do arquivo usando a classe utilitária LeitorDeGrafo.
-            int[,] grafoInt = LeitorDeGrafo.LerGrafoDeArquivo("../Grafo.txt");
+            // int[,] grafoInt = LeitorDeGrafo.LerGrafoDeArquivo("../Grafo.txt");
 
             // Mostra a matriz lida na tela.
             Console.WriteLine("Matriz lida:");
-            LeitorDeGrafo.MostraGrafo(grafoInt);
+           // LeitorDeGrafo.MostraGrafo(grafoInt);
             Console.WriteLine();
 
             // Converte a matriz int[,] para double[,], substituindo 0 por infinito.

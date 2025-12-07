@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Profundidade")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+882a8d97f849850fc9aecb119aa117bab081335d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3a6bcb7b25903202bd5e7a402da2b430d5dd358")]
 [assembly: System.Reflection.AssemblyProductAttribute("Profundidade")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Profundidade")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
