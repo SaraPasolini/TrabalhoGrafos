@@ -105,7 +105,10 @@ namespace AlgoritmosGrafos
             Console.WriteLine("Lendo grafo do arquivo Grafo.txt...\n");
 
             // Lê a matriz de adjacência do arquivo usando a classe utilitária LeitorDeGrafo.
-            int[,] grafoInt = LeitorDeGrafo.LerGrafoDeArquivo("../Grafo.txt");
+            var caminhoRel = System.IO.Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "Utils", "Grafoteste.txt");
+            var caminhoGrafo = System.IO.Path.GetFullPath(caminhoRel);
+            Console.WriteLine($"Lendo arquivo de grafo em: {caminhoGrafo}");
+            int[,] grafoInt = LeitorDeGrafo.LerGrafoDeArquivo(caminhoGrafo);
 
             // Mostra a matriz lida na tela.
             Console.WriteLine("Matriz lida:");

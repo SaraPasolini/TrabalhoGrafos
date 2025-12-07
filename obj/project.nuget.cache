@@ -1,0 +1,64 @@
+{
+  "version": 2,
+  "dgSpecHash": "sFM26+YXueE=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\TrabalhoGrafos.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "O projeto Amplitude não é compatível com net9.0 (.NETCoreApp,Version=v9.0). O projeto Amplitude dá suporte a: net9.0-windows7.0 (.NETCoreApp,Version=v9.0)",
+      "projectPath": "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\TrabalhoGrafos.csproj",
+      "filePath": "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\TrabalhoGrafos.csproj",
+      "libraryId": "Amplitude",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "O projeto Profundidade não é compatível com net9.0 (.NETCoreApp,Version=v9.0). O projeto Profundidade dá suporte a: net9.0-windows7.0 (.NETCoreApp,Version=v9.0)",
+      "projectPath": "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\TrabalhoGrafos.csproj",
+      "filePath": "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\TrabalhoGrafos.csproj",
+      "libraryId": "Profundidade",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "O projeto Dijkstra não é compatível com net9.0 (.NETCoreApp,Version=v9.0). O projeto Dijkstra dá suporte a: net9.0-windows7.0 (.NETCoreApp,Version=v9.0)",
+      "projectPath": "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\TrabalhoGrafos.csproj",
+      "filePath": "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\TrabalhoGrafos.csproj",
+      "libraryId": "Dijkstra",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "O projeto PRIM não é compatível com net9.0 (.NETCoreApp,Version=v9.0). O projeto PRIM dá suporte a: net9.0-windows7.0 (.NETCoreApp,Version=v9.0)",
+      "projectPath": "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\TrabalhoGrafos.csproj",
+      "filePath": "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\TrabalhoGrafos.csproj",
+      "libraryId": "PRIM",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "O projeto Utils não é compatível com net9.0 (.NETCoreApp,Version=v9.0). O projeto Utils dá suporte a: net9.0-windows7.0 (.NETCoreApp,Version=v9.0)",
+      "projectPath": "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\TrabalhoGrafos.csproj",
+      "filePath": "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\TrabalhoGrafos.csproj",
+      "libraryId": "Utils",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}

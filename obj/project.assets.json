@@ -1,0 +1,226 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Amplitude/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/Amplitude.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Amplitude.dll": {}
+        }
+      },
+      "Dijkstra/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/Dijkstra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dijkstra.dll": {}
+        }
+      },
+      "PRIM/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/PRIM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PRIM.dll": {}
+        }
+      },
+      "Profundidade/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/Profundidade.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Profundidade.dll": {}
+        }
+      },
+      "Utils/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/Utils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utils.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Amplitude/1.0.0": {
+      "type": "project",
+      "path": "Amplitude/Amplitude.csproj",
+      "msbuildProject": "Amplitude/Amplitude.csproj"
+    },
+    "Dijkstra/1.0.0": {
+      "type": "project",
+      "path": "Dijkstra/Dijkstra.csproj",
+      "msbuildProject": "Dijkstra/Dijkstra.csproj"
+    },
+    "PRIM/1.0.0": {
+      "type": "project",
+      "path": "PRIM/PRIM.csproj",
+      "msbuildProject": "PRIM/PRIM.csproj"
+    },
+    "Profundidade/1.0.0": {
+      "type": "project",
+      "path": "Profundidade/Profundidade.csproj",
+      "msbuildProject": "Profundidade/Profundidade.csproj"
+    },
+    "Utils/1.0.0": {
+      "type": "project",
+      "path": "Utils/Utils.csproj",
+      "msbuildProject": "Utils/Utils.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Amplitude >= 1.0.0",
+      "Dijkstra >= 1.0.0",
+      "PRIM >= 1.0.0",
+      "Profundidade >= 1.0.0",
+      "Utils >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\geova\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\TrabalhoGrafos.csproj",
+      "projectName": "TrabalhoGrafos",
+      "projectPath": "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\TrabalhoGrafos.csproj",
+      "packagesPath": "C:\\Users\\geova\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\geova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\Amplitude\\Amplitude.csproj": {
+              "projectPath": "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\Amplitude\\Amplitude.csproj"
+            },
+            "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\Dijkstra\\Dijkstra.csproj": {
+              "projectPath": "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\Dijkstra\\Dijkstra.csproj"
+            },
+            "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\PRIM\\PRIM.csproj": {
+              "projectPath": "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\PRIM\\PRIM.csproj"
+            },
+            "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\Profundidade\\Profundidade.csproj": {
+              "projectPath": "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\Profundidade\\Profundidade.csproj"
+            },
+            "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\Utils\\Utils.csproj": {
+              "projectPath": "C:\\Users\\geova\\Repositorios - Git\\TrabalhoGrafos\\Utils\\Utils.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "O projeto Amplitude não é compatível com net9.0 (.NETCoreApp,Version=v9.0). O projeto Amplitude dá suporte a: net9.0-windows7.0 (.NETCoreApp,Version=v9.0)",
+      "libraryId": "Amplitude",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "O projeto Profundidade não é compatível com net9.0 (.NETCoreApp,Version=v9.0). O projeto Profundidade dá suporte a: net9.0-windows7.0 (.NETCoreApp,Version=v9.0)",
+      "libraryId": "Profundidade",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "O projeto Dijkstra não é compatível com net9.0 (.NETCoreApp,Version=v9.0). O projeto Dijkstra dá suporte a: net9.0-windows7.0 (.NETCoreApp,Version=v9.0)",
+      "libraryId": "Dijkstra",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "O projeto PRIM não é compatível com net9.0 (.NETCoreApp,Version=v9.0). O projeto PRIM dá suporte a: net9.0-windows7.0 (.NETCoreApp,Version=v9.0)",
+      "libraryId": "PRIM",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "O projeto Utils não é compatível com net9.0 (.NETCoreApp,Version=v9.0). O projeto Utils dá suporte a: net9.0-windows7.0 (.NETCoreApp,Version=v9.0)",
+      "libraryId": "Utils",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+C:\Users\saraa\Grafos\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.csproj.AssemblyReference.cache
+C:\Users\saraa\Grafos\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saraa\Grafos\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.AssemblyInfoInputs.cache
+C:\Users\saraa\Grafos\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.AssemblyInfo.cs
+C:\Users\saraa\Grafos\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.csproj.CoreCompileInputs.cache
+C:\Users\saraa\Grafos\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.sourcelink.json
+C:\Users\saraa\Grafos\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\Amplitude.exe
+C:\Users\saraa\Grafos\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\Amplitude.deps.json
+C:\Users\saraa\Grafos\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\Amplitude.runtimeconfig.json
+C:\Users\saraa\Grafos\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\Amplitude.dll
+C:\Users\saraa\Grafos\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\Amplitude.pdb
+C:\Users\saraa\Grafos\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\Utils.dll
+C:\Users\saraa\Grafos\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\Utils.pdb
+C:\Users\saraa\Grafos\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.csproj.Up2Date
+C:\Users\saraa\Grafos\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.dll
+C:\Users\saraa\Grafos\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\refint\Amplitude.dll
+C:\Users\saraa\Grafos\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.pdb
+C:\Users\saraa\Grafos\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.genruntimeconfig.cache
+C:\Users\saraa\Grafos\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\ref\Amplitude.dll
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\Amplitude.exe
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\Amplitude.deps.json
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\Amplitude.runtimeconfig.json
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\Amplitude.dll
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\Amplitude.pdb
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\Microsoft.Msagl.dll
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\Microsoft.Msagl.Drawing.dll
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\Microsoft.Msagl.GraphViewerGdi.dll
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\Utils.dll
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\bin\Debug\net9.0\Utils.pdb
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.csproj.AssemblyReference.cache
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.AssemblyInfoInputs.cache
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.AssemblyInfo.cs
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.csproj.CoreCompileInputs.cache
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.sourcelink.json
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.csproj.Up2Date
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.dll
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\refint\Amplitude.dll
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.pdb
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\Amplitude.genruntimeconfig.cache
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Amplitude\obj\Debug\net9.0\ref\Amplitude.dll

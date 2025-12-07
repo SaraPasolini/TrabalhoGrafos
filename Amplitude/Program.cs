@@ -1,111 +1,92 @@
 ﻿using System;
-using System.Collections.Generic;
+using AlgoritmosGrafos.Utils;
 using System.IO;
-using System.Linq;
-using System.Text;
-using LeitorDeGrafo.Utils.LeitorDeGrafo;
 
-public class LeitorDeGrafo
+namespace Amplitude
 {
-    private int Vertices;
-    private List<(int destino, int peso)>[] adj;
-
-    public LeitorDeGrafo(int vertices)
+    class Program
     {
-        Vertices = vertices;
-        adj = new List<(int destino, int peso)>[vertices];
-
-        for (int i = 0; i < vertices; i++)
-            adj[i] = new List<(int destino, int peso)>();
-    }
-
-    public void AddEdge(int origem, int destino, int peso)
-    {
-        // Grafo NÃO DIRECIONADO → adiciona nos dois sentidos
-        adj[origem].Add((destino, peso));
-        adj[destino].Add((origem, peso));
-    }
-
-    public void BFS(int inicio)
-    {
-        bool[] visitado = new bool[Vertices];
-        Queue<int> fila = new Queue<int>();
-
-        visitado[inicio] = true;
-        fila.Enqueue(inicio);
-
-        Console.WriteLine("Travessia BFS:");
-
-        while (fila.Count > 0)
+        static void Main(string[] args)
         {
-            int atual = fila.Dequeue();
-            Console.Write(atual + " ");
+            // Lê matriz do arquivo
+            var caminhoRel = Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "Utils", "Grafoteste.txt");
+            var caminhoGrafo = Path.GetFullPath(caminhoRel);
+            Console.WriteLine($"Lendo grafo de: {caminhoGrafo}");
+            int[,] matriz = LeitorDeGrafo.LerGrafoDeArquivo(caminhoGrafo);
 
-            foreach (var vizinho in adj[atual])
+
+            int n = matriz.GetLength(0);
+
+            // Cria grafo com a quantidade correta de vértices
+            Graph g = new Graph(n);
+
+            // Converte matriz → lista de adjacência
+            for (int i = 0; i < n; i++)
             {
-                if (!visitado[vizinho.destino])
+                for (int j = i + 1; j < n; j++) // evita duplicar arestas
                 {
-                    visitado[vizinho.destino] = true;
-                    fila.Enqueue(vizinho.destino);
+                    if (matriz[i, j] != 0)
+                    {
+                        g.AddEdge(i, j, matriz[i, j]);
+                    }
                 }
             }
-        }
 
-        Console.WriteLine();
-    }
+            // Mostra grafo
+            g.PrintGraph();
 
-    public void PrintGraph()
-    {
-        Console.WriteLine("LISTA DE ADJACÊNCIA:");
-        Console.WriteLine("");
-        for (int i = 0; i < Vertices; i++)
-        {
-            Console.Write($"Vértice {i}: ");
-            foreach (var (dest, peso) in adj[i])
-            {
-                Console.Write($"-> ({dest}, peso: {peso}) ");
-            }
             Console.WriteLine();
-        }
-    }
-}
+            Console.Write("Digite o vértice inicial para BFS: ");
+            int inicio = int.Parse(Console.ReadLine()!);
 
-class Program
-{
-    static void Main()
-    {
-        LeitorDeGrafo g = new LeitorDeGrafo(6);
+            Console.WriteLine();
+            g.BFS(inicio);
 
-        // Caminho para o arquivo de grafo (relativo à pasta bin)
-        string caminhoGrafo = Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "Utils", "Grafoteste.txt");
-        caminhoGrafo = Path.GetFullPath(caminhoGrafo);
+            Console.WriteLine("\nPressione qualquer tecla para sair...");
+            Console.ReadKey();
 
-        // Lê o grafo do arquivo
-        int[,] grafo = LeitorDeGrafo.LerGrafoDeArquivo(caminhoGrafo);
-
-        // Exibe a matriz de adjacência
-        Console.WriteLine("Matriz de Adjacência lida do arquivo:");
-        LeitorDeGrafo.MostraGrafo(grafo);
-        Console.WriteLine();
-
-        // Converte a matriz em um grafo com lista de adjacência
-        for (int i = 0; i < 6; i++)
-        {
-            for (int j = i + 1; j < 6; j++) // Começa de i+1 para evitar duplicatas em grafo não-direcionado
+            // Gera e exporta visualização do grafo com MSAGL, aplicando cores por ordem de BFS
+            try
             {
-                if (grafo[i, j] != 0)
+                var msagl = GerarGrafo.MontarGrafoAPartirDaMatriz(matriz);
+
+                // obtém ordem do BFS e rotula/nomeia nós com ordem
+                var bfsOrder = g.GetBFSOrder(inicio);
+                int m = bfsOrder.Count;
+
+                // aplica labels e cores decrescentes em tons de verde
+                for (int i = 0; i < m; i++)
                 {
-                    g.AddEdge(i, j, grafo[i, j]);
+                    int v = bfsOrder[i];
+                    var node = msagl.FindNode(v.ToString());
+                    if (node == null) continue;
+                    node.Attr.Shape = Microsoft.Msagl.Drawing.Shape.Circle;
+                    node.LabelText = v + " (" + (i + 1).ToString() + ")";
+
+                    int maxG = 220;
+                    int minG = 80;
+                    int greenVal = (m > 1) ? (maxG - (i * (maxG - minG) / (m - 1))) : maxG;
+                    int redVal = 40;
+                    int blueVal = 40;
+                    try
+                    {
+                        node.Attr.FillColor = new Microsoft.Msagl.Drawing.Color((byte)redVal, (byte)greenVal, (byte)blueVal);
+                    }
+                    catch
+                    {
+                        node.Attr.FillColor = Microsoft.Msagl.Drawing.Color.LightGray;
+                    }
                 }
+
+                var saidaRel = System.IO.Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "meu_grafo_amplitude.jpg");
+                var saida = System.IO.Path.GetFullPath(saidaRel);
+                ExportarGrafo.SalvarGrafoComoJpg(msagl, saida, 1200, 800);
+                Console.WriteLine($"Grafo (Amplitude) salvo em: {saida}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Não foi possível gerar/exportar o grafo (Amplitude): " + ex.Message);
             }
         }
-
-        // Exibe a lista de adjacência
-        Console.WriteLine();
-        g.PrintGraph();
-        Console.WriteLine();
-
-        // Executa BFS começando do vértice 0
-        g.BFS(0);
     }
 }

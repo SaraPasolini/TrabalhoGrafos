@@ -1,0 +1,25 @@
+C:\Users\saraa\Grafos\TrabalhoGrafos\Utils\bin\Debug\net9.0\Utils.deps.json
+C:\Users\saraa\Grafos\TrabalhoGrafos\Utils\bin\Debug\net9.0\Utils.dll
+C:\Users\saraa\Grafos\TrabalhoGrafos\Utils\bin\Debug\net9.0\Utils.pdb
+C:\Users\saraa\Grafos\TrabalhoGrafos\Utils\obj\Debug\net9.0\Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saraa\Grafos\TrabalhoGrafos\Utils\obj\Debug\net9.0\Utils.AssemblyInfoInputs.cache
+C:\Users\saraa\Grafos\TrabalhoGrafos\Utils\obj\Debug\net9.0\Utils.AssemblyInfo.cs
+C:\Users\saraa\Grafos\TrabalhoGrafos\Utils\obj\Debug\net9.0\Utils.csproj.CoreCompileInputs.cache
+C:\Users\saraa\Grafos\TrabalhoGrafos\Utils\obj\Debug\net9.0\Utils.sourcelink.json
+C:\Users\saraa\Grafos\TrabalhoGrafos\Utils\obj\Debug\net9.0\Utils.dll
+C:\Users\saraa\Grafos\TrabalhoGrafos\Utils\obj\Debug\net9.0\refint\Utils.dll
+C:\Users\saraa\Grafos\TrabalhoGrafos\Utils\obj\Debug\net9.0\Utils.pdb
+C:\Users\saraa\Grafos\TrabalhoGrafos\Utils\obj\Debug\net9.0\ref\Utils.dll
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Utils\bin\Debug\net9.0\Utils.deps.json
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Utils\bin\Debug\net9.0\Utils.dll
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Utils\bin\Debug\net9.0\Utils.pdb
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Utils\obj\Debug\net9.0\Utils.csproj.AssemblyReference.cache
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Utils\obj\Debug\net9.0\Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Utils\obj\Debug\net9.0\Utils.AssemblyInfoInputs.cache
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Utils\obj\Debug\net9.0\Utils.AssemblyInfo.cs
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Utils\obj\Debug\net9.0\Utils.csproj.CoreCompileInputs.cache
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Utils\obj\Debug\net9.0\Utils.sourcelink.json
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Utils\obj\Debug\net9.0\Utils.dll
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Utils\obj\Debug\net9.0\refint\Utils.dll
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Utils\obj\Debug\net9.0\Utils.pdb
+C:\Users\geova\Repositorios - Git\TrabalhoGrafos\Utils\obj\Debug\net9.0\ref\Utils.dll
