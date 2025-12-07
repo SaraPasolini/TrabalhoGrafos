@@ -147,6 +147,25 @@ namespace AlgoritmosGrafos
             // Imprime o caminho mínimo para cada vértice do grafo.
             for (int t = 0; t < dist.Length; t++)
                 PrintPath(prev, dist, source, t);
+
+            // Gera uma representação visual do grafo usando as utils e salva como JPG
+            try
+            {
+                var vertices = new System.Collections.Generic.List<int>();
+                for (int i = 0; i < n; i++) vertices.Add(i);
+
+                var graph = GerarGrafo.MontarGrafo(vertices, prev);
+
+                var saidaRel = System.IO.Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "meu_grafo_dijkstra.jpg");
+                var saida = System.IO.Path.GetFullPath(saidaRel);
+
+                ExportarGrafo.SalvarGrafoComoJpg(graph, saida, 1200, 800);
+                Console.WriteLine($"Grafo salvo em: {saida}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Não foi possível gerar/exportar o grafo: " + ex.Message);
+            }
         }
     }
 }

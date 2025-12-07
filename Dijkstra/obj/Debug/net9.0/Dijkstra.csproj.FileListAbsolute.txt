@@ -1,5 +1,0 @@
-C:\Users\saraa\Grafos\TrabalhoGrafos\Dijkstra\obj\Debug\net9.0\Dijkstra.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\saraa\Grafos\TrabalhoGrafos\Dijkstra\obj\Debug\net9.0\Dijkstra.AssemblyInfoInputs.cache
-C:\Users\saraa\Grafos\TrabalhoGrafos\Dijkstra\obj\Debug\net9.0\Dijkstra.AssemblyInfo.cs
-C:\Users\saraa\Grafos\TrabalhoGrafos\Dijkstra\obj\Debug\net9.0\Dijkstra.csproj.CoreCompileInputs.cache
-C:\Users\saraa\Grafos\TrabalhoGrafos\Dijkstra\obj\Debug\net9.0\Dijkstra.sourcelink.json
